@@ -1,0 +1,88 @@
+.navbar {
+  position: fixed;
+  z-index: 1;
+  overflow: auto;
+}
+.sidebar-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.Home {
+  padding: 40px 0 1000px 0;
+  background-image: url(./Assest/Big-Photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Home h1 {
+  font-size: 50px;
+}
+.Home h1,
+.Home p {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin: auto;
+}
+
+#About,
+#Photos,
+#Contact {
+  padding: 120px;
+  padding-left: 200px;
+}
+.w3-white {
+  background-color: white !important;
+}
+.numbers {
+  display: inline-block;
+  text-align: center;
+  padding: 20px 60px;
+  justify-content: space-around;
+}
+.Basic,
+.PRO {
+  display: inline-block;
+  text-align: center;
+  justify-content: space-around;
+  width: 49%;
+}
+.Basic li,
+.PRO li {
+  list-style: none;
+  padding: 15px;
+}
+
+.Basic:hover,
+.PRO:hover {
+  background-color: beige;
+}
+
+/* My_Reputation */
+
+.My_Reputation img {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+.My_Reputation div {
+  display: inline-block;
+
+  padding-right: 400px;
+}
+
+/* Photos */
+#Photos img {
+  display: inline-block;
+}
+.photos3 {
+  height: 550px;
+}
+
+#Contact input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+}
